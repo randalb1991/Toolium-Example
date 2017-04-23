@@ -1,0 +1,84 @@
+DEBUG   2017-04-23 13:57:05,430 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 13:57:05,430 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 13:57:05,433 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 13:57:05,433 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 13:57:08,387 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 13:57:08,390 [test_cases] Running new test: Login.test_successful_login_logout
+DEBUG   2017-04-23 13:57:09,999 [login] Login with user 'tomsmith'
+INFO    2017-04-23 13:57:12,174 [test_cases] The test 'Login.test_successful_login_logout' has passed
+DEBUG   2017-04-23 13:57:18,876 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 13:57:18,876 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 13:57:18,879 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 13:57:18,880 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 13:57:21,412 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 13:57:21,414 [test_cases] Running new test: Login.test_successful_login_logout
+DEBUG   2017-04-23 13:57:23,352 [login] Login with user 'tomsmith'
+INFO    2017-04-23 13:57:25,576 [test_cases] The test 'Login.test_successful_login_logout' has passed
+DEBUG   2017-04-23 13:57:46,281 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 13:57:46,282 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 13:57:46,283 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 13:57:46,284 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 13:57:48,726 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 13:57:48,728 [test_cases] Running new test: Login.test_successful_login_logout
+DEBUG   2017-04-23 13:57:50,595 [login] Login with user 'tomsmith'
+INFO    2017-04-23 13:57:52,724 [test_cases] The test 'Login.test_successful_login_logout' has passed
+DEBUG   2017-04-23 13:58:57,208 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 13:58:57,209 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 13:58:57,210 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 13:58:57,211 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 13:58:59,731 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 13:58:59,732 [test_cases] Running new test: Login.test_successful_login_logout
+DEBUG   2017-04-23 13:59:01,413 [login] Login with user 'tomsmith'
+INFO    2017-04-23 13:59:03,179 [test_cases] The test 'Login.test_successful_login_logout' has passed
+DEBUG   2017-04-23 13:59:44,603 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 13:59:44,603 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 13:59:44,605 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 13:59:44,605 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 13:59:47,131 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 13:59:47,133 [test_cases] Running new test: Login.test_wrong_login_dict_1
+DEBUG   2017-04-23 13:59:49,197 [login] Login with user 'peter'
+INFO    2017-04-23 13:59:50,570 [test_cases] The test 'Login.test_wrong_login_dict_1' has passed
+DEBUG   2017-04-23 13:59:50,714 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 13:59:50,715 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 13:59:50,718 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 13:59:50,718 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 13:59:53,577 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 13:59:53,579 [test_cases] Running new test: Login.test_wrong_login_dict_2
+DEBUG   2017-04-23 13:59:55,172 [login] Login with user 'tomsmith'
+INFO    2017-04-23 13:59:56,718 [test_cases] The test 'Login.test_wrong_login_dict_2' has passed
+DEBUG   2017-04-23 13:59:56,881 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 13:59:56,882 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 13:59:56,890 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 13:59:56,891 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 13:59:59,611 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 13:59:59,613 [test_cases] Running new test: Login.test_wrong_login_file_1_wrong_username
+DEBUG   2017-04-23 14:00:01,106 [login] Login with user 'peter'
+INFO    2017-04-23 14:00:02,659 [test_cases] The test 'Login.test_wrong_login_file_1_wrong_username' has passed
+DEBUG   2017-04-23 14:00:02,788 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 14:00:02,788 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 14:00:02,792 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 14:00:02,792 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 14:00:05,264 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 14:00:05,265 [test_cases] Running new test: Login.test_wrong_login_file_2_wrong_password
+DEBUG   2017-04-23 14:00:06,984 [login] Login with user 'tomsmith'
+INFO    2017-04-23 14:00:08,026 [test_cases] The test 'Login.test_wrong_login_file_2_wrong_password' has passed
+DEBUG   2017-04-23 14:01:08,371 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 14:01:08,372 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 14:01:08,374 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 14:01:08,374 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 14:01:11,116 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 14:01:11,118 [test_cases] Running new test: Tables.test_search_user
+INFO    2017-04-23 14:01:13,387 [test_cases] The test 'Tables.test_search_user' has passed
+DEBUG   2017-04-23 14:01:26,777 [config_parser] Reading properties from file: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/properties.cfg
+DEBUG   2017-04-23 14:01:26,777 [config_parser] Properties config file not found: /Users/Randal/Desktop/UNI/CS/toolium-examples/toolium-examples/web/conf/local-properties.cfg
+INFO    2017-04-23 14:01:26,779 [config_driver] Creating local driver (type = chrome)
+DEBUG   2017-04-23 14:01:26,779 [config_driver] Chrome driver path given in properties: /Users/Randal/Desktop/UNI/CS/toolium-examples/chromedriver
+DEBUG   2017-04-23 14:01:29,305 [driver_wrapper] Window size: 1050 x 877
+INFO    2017-04-23 14:01:29,307 [test_cases] Running new test: Login.test_successful_login_logout
+DEBUG   2017-04-23 14:01:32,044 [visual_test] Visual screenshot 'login_form' saved in visualtests/baseline folder
+DEBUG   2017-04-23 14:01:32,626 [visual_test] Visual screenshot 'login_form_no_password' saved in visualtests/baseline folder
+DEBUG   2017-04-23 14:01:32,972 [visual_test] Visual screenshot 'login_submit_button' saved in visualtests/baseline folder
+DEBUG   2017-04-23 14:01:32,972 [login] Login with user 'tomsmith'
+DEBUG   2017-04-23 14:01:34,739 [visual_test] Visual screenshot 'login_secure_area' saved in visualtests/baseline folder
+DEBUG   2017-04-23 14:01:35,995 [visual_test] Visual screenshot 'login_logout' saved in visualtests/baseline folder
+INFO    2017-04-23 14:01:35,995 [test_cases] The test 'Login.test_successful_login_logout' has passed
