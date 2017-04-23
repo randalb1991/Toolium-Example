@@ -22,7 +22,7 @@ highly recommendable to use a virtualenv.
 Running Tests
 -------------
 
-Each folder contains a sample project to test web, Android or iOS applications using nose, behave or lettuce to execute
+Each folder contains a sample project to test web using nose, behave or lettuce to execute
 them.
 
 By default, web tests are configured to run in chrome locally, so chrome must be installed in your machine and the
@@ -36,11 +36,6 @@ chrome driver must be downloaded and configured:
     chrome_driver_path: C:\Drivers\chromedriver.exe
 
 
-And mobile tests are configured to run against a local Appium server, so
-`Appium <http://appium.io/slate/en/master/?ruby#setting-up-appium>`_ must be installed, configured and started before
-executing tests. iOS tests are configured to run on iOS Simulator and Android tests need an Android Emulator or a
-plugged Android device.
-
 **web**
 
 To run web tests with nose:
@@ -49,22 +44,6 @@ To run web tests with nose:
 
     $ nosetests web
 
-**android**
-
-To run Android tests with nose:
-
-.. code:: console
-
-    $ nosetests android
-
-**ios**
-
-To run iOS tests with nose:
-
-.. code:: console
-
-    $ nosetests ios
-
 **web_behave**
 
 To run behave web tests:
@@ -72,52 +51,6 @@ To run behave web tests:
 .. code:: console
 
     $ behave web_behave
-
-The same web tests could be executed in an Android or iOS device using different configuration files per environment.
-To run behave web tests in an Android device:
-
-.. code:: console
-
-    $ behave web_behave/features/login.feature -D Config_environment=android
-
-To run behave web tests in an iOS device:
-
-.. code:: console
-
-    $ behave web_behave/features/login.feature -D Config_environment=ios
-
-**android_behave**
-
-To run behave Android tests:
-
-.. code:: console
-
-    $ behave android_behave
-
-**ios_behave**
-
-To run behave iOS tests:
-
-.. code:: console
-
-    $ behave ios_behave
-
-**mobile_behave**
-
-This folder contains a behave test that could be executed either in Android or iOS depending on *Config_environment*
-behave user property.
-
-To run behave test in Android:
-
-.. code:: console
-
-    $ behave mobile_behave -D Config_environment=android
-
-To run behave test in iOS:
-
-.. code:: console
-
-    $ behave mobile_behave -D Config_environment=ios
 
 **web_lettuce**
 
