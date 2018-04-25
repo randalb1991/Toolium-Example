@@ -46,15 +46,24 @@ Each folder contain a differente  automation code with differents frameworks:
                 - the variable python file saving the required variables
                 - Folder **additional_tests**
                     Here are the additionals  tests. They can be executed using:
-                        python test_profile.py
+                    
+                    .. code:: console
+                        
+                        $ python test_profile.py
+                        
                 - Folder **login**
                     The are the mandatory tests implemented
                         - Folder **tests**
                             There are the mandatory tests implemented with 3 differents testsuites which can be executed passing an argument as the following:
-                                - python test_login suite_ok
-                                - python test_login suite_nok
-                                - python test_login empty_fields
-                                - python test_login executes all tests
+                            
+                            .. code:: console
+                        
+                                $ python test_profile.py
+                                $ python test_login suite_ok
+                                $ python test_login suite_nok
+                                $ python test_login empty_fields
+                                $ python test_login executes all tests
+                                
                             using testsSuite more tests can be added/deleted from each testsuite
                         - Folder **test_ddt**
                             There are the mandatory tests implemented using ddt framework which read dataset from the files:
@@ -75,4 +84,6 @@ As an extra effort, the mandatory login tests has been implemented using behave&
     - Steps:
         Steps used in features files are here
 They can be executed using the command:
-    behave web_behave
+.. code:: console
+
+    $ behave web_behave
