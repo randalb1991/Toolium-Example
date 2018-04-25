@@ -23,9 +23,11 @@ The requirements are the following:
     $ python -m pip install --upgrade pip
     $ pip install -r requirements.txt
 
-# Step 3: Could be necessary add the root path to PYTHONPATH. It could be done using the following command in unix from the root path:
+# Step 3: Could be necessary add the root path to PYTHONPATH.
+It could be done using the following command in unix from the root path:
 
 .. code:: console
+
     $ cd ../../tuenti-exercises # where  tuenti-exercises is the root path
     $ export PYTHONPATH=`pwd` # executed from the root path
 
