@@ -5,23 +5,26 @@ Requirements
 ---------------
 The requirements are the following:
 
-            python 2.7.9+
-            pip 10.0.1
-            virtualenv 12.0.7
+    - python 2.7.9+
+    - pip 10.0.1
+    - virtualenv 12.0.7
 
 # Step 1: Create and activate virtualenv
+
 .. code:: console
 
     $ virtualenv tuenti-env
     $ source tuenti-env/bin/activate
 
 # Step 2: Update pip  and install all dependencies:
+
 .. code:: console
 
     $ python -m pip install --upgrade pip
     $ pip install -r requirements.txt
 
 # Step 3: Could be necessary add the root path to PYTHONPATH. It could be done using the following command in unix from the root path:
+
 .. code:: console
     $ cd ../../tuenti-exercises # where  tuenti-exercises is the root path
     $ export PYTHONPATH=`pwd` # executed from the root path
