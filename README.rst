@@ -1,63 +1,90 @@
-Toolium Examples
+Tuenti exercises
 ================
 
-Set of examples to learn how to use `Toolium <https://github.com/Telefonica/toolium>`_ to test web, Android or iOS
-applications, in different scenarios.
-
-Getting Started
+Requirements
 ---------------
+The requirements are the following:
 
-The requirements to install Toolium are `Python 2.7 or 3.3+ <http://www.python.org>`_ and
-`pip <https://pypi.python.org/pypi/pip>`_. If you use Python 2.7.9+, you don't need to install pip separately.
+    - python 2.7.9+
+    - pip 10.0.1
+    - virtualenv 12.0.7
 
-Clone `toolium-examples <https://github.com/Telefonica/toolium-examples>`_ repository and install requirements. It's
-highly recommendable to use a virtualenv.
+# Step 1: Create and activate virtualenv
 
 .. code:: console
 
-    $ git clone git@github.com:Telefonica/toolium-examples.git
-    $ cd toolium-examples
+    $ virtualenv tuenti-env
+    $ source tuenti-env/bin/activate
+
+# Step 2: Update pip  and install all dependencies:
+
+.. code:: console
+
+    $ python -m pip install --upgrade pip
     $ pip install -r requirements.txt
+
+# Step 3: Could be necessary add the root path to PYTHONPATH.
+It could be done using the following command in unix from the root path:
+
+.. code:: console
+
+    $ cd ../../tuenti-exercises # where  tuenti-exercises is the root path
+    $ export PYTHONPATH=`pwd` # executed from the root path
 
 Running Tests
 -------------
 
-Each folder contains a sample project to test web using nose, behave or lettuce to execute
-them.
-
-By default, web tests are configured to run in chrome locally, so chrome must be installed in your machine and the
-chrome driver must be downloaded and configured:
-
-- Download `chromedriver_*.zip <http://chromedriver.storage.googleapis.com/index.html>`_
-- Unzip file and save the executable in a local folder
-- Configure driver path in *[Driver]* section in properties.cfg file ::
-
-    [Driver]
-    chrome_driver_path: C:\Drivers\chromedriver.exe
-
+Each folder contain a differente  automation code with differents frameworks:
 
 **web**
 
-To run web tests with nose:
+    Within web folder we have 2 differents folder:
+        **utils**
+            Used to save a necessary code
+        **tests**
+            Here we've:
+                - the variable python file saving the required variables
+                - Folder **additional_tests**
+                    Here are the additionals  tests. They can be executed using:
 
-.. code:: console
+                    .. code:: console
 
-    $ nosetests web
+                        $ python test_profile.py
+
+                - Folder **login**
+                    The are the mandatory tests implemented
+                        - Folder **tests**
+                            There are the mandatory tests implemented with 3 differents testsuites which can be executed passing an argument as the following:
+
+                            .. code:: console
+
+                                $ python test_profile.py
+                                $ python test_login suite_ok
+                                $ python test_login suite_nok
+                                $ python test_login empty_fields
+                                $ python test_login executes all tests
+
+                            using testsSuite more tests can be added/deleted from each testsuite
+                        - Folder **test_ddt**
+                            There are the mandatory tests implemented using ddt framework which read dataset from the files:
+                                - empties_login_dataset.csv
+                                - successful_login_dataset.csv
+                                - unsuccessful_login_dataset.csv
 
 **web_behave**
-
-To run behave web tests:
+As an extra effort, the mandatory login tests has been implemented using behave&Toolium framework too. This code has the following structure:
+    - conf folder:
+        The variables used are here. Such as driver path, implicitly_wait, url....
+    - features:
+        Features files with described scenarios are here
+    - output:
+        Logs will be saved here
+    - PageObject:
+        PageObjects implementes with toolium are here
+    - Steps:
+        Steps used in features files are here
+They can be executed using the command:
 
 .. code:: console
 
     $ behave web_behave
-
-**web_lettuce**
-
-To run lettuce web tests:
-
-.. code:: console
-
-    $ lettuce web_lettuce
-
-Note: lettuce works only in Python 2
